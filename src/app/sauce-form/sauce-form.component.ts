@@ -59,7 +59,7 @@ export class SauceFormComponent implements OnInit {
       image: [null, Validators.required],
       mainPepper: [null, Validators.required],
       heat: [1, Validators.required],
-      heatValue: [{value: 1, disabled: true}],
+      heatValue: [{value: 1, disabled: true}]
     });
     this.sauceForm.get('heat')!.valueChanges.subscribe(
       (value) => {

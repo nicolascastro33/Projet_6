@@ -59,7 +59,7 @@ export class SingleSauceComponent implements OnInit {
         tap(sauce => this.sauce$ = of(sauce))
       )),
     ).subscribe();
-  } 
+  }
 
   onDislike() {
     if (this.liked) {
